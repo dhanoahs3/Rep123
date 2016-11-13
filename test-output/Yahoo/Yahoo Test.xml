@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-TKK5GPG" name="test.Yahootest" tests="1" failures="0" timestamp="13 Nov 2016 14:58:15 GMT" time="0.002" errors="0">
+  <testcase name="yahootest" time="0.0" classname="test.Yahootest"/>
+</testsuite>

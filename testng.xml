@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+   <!-- 
+   We make a new xml file in Module 9 but  not in src folder
+   define all the tests we want to run i.e all java files we want to run by giving pseodu suite names
+   but actual java file locations.
+   
+    -->
+<suite name="Yahoo" >
+  <test name="Simple New Test" >
+    <classes>
+       <class name="test.NewTest" />
+    </classes>
+  </test>
+ 
+  <test name="Yahoo Test">
+    <classes>
+      <class name="test.Yahootest"/>
+    </classes>
+  </test>
+  
+    <test name="register yahoo">
+    <classes>
+      <class name="test.registeryahoo"/>
+    </classes>
+  </test>
+</suite>

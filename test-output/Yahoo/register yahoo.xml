@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-TKK5GPG" name="test.registeryahoo" tests="6" failures="1" timestamp="13 Nov 2016 14:58:15 GMT" time="0.006" errors="0">
+  <testcase name="checkAssertions" time="0.002" classname="test.registeryahoo">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;noGood&amp;gt; but was:&amp;lt;Good&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<noGood> but was:<Good>
+	at test.registeryahoo.checkAssertions(registeryahoo.java:17)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="checkTrueAssertions" time="0.001" classname="test.registeryahoo"/>
+  <testcase name="checkfalseAssertions" time="0.001" classname="test.registeryahoo"/>
+  <testcase name="register" time="0.0" classname="test.registeryahoo"/>
+  <testcase name="register" time="0.0" classname="test.registeryahoo"/>
+  <testcase name="register" time="0.0" classname="test.registeryahoo"/>
+</testsuite>
